@@ -1,16 +1,9 @@
 import PropTypes from "prop-types";
 import { FaBookmark } from "react-icons/fa";
 const Blog = ({ blog , handleAddToBookmark}) => {
-  console.log(blog);
-  const {
-    title,
-    cover,
-    author,
-    author_img,
-    reading_time,
-    posted_date,
-    hashtags,
-  } = blog;
+//   console.log(blog);
+  const {title,cover,author,author_img,reading_time,posted_date,hashtags,} = blog;
+  
   return (
     <div className="mb-20 ">
       <img
